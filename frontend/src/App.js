@@ -46,9 +46,14 @@ function App() {
   const { isAuthenticated, user } = useSelector((state) => state.user);
 
   const [stripeApiKey, setStripeApiKey] = useState("");
+  
+  
   async function getStripeApiKey() {
-    const { data } = await axios.get("/api/v1/stripeapikey");
-    setStripeApiKey(data.stripeApiKey);
+    //const { data } = await axios.get("/api/v1/stripeapikey");
+    //setStripeApiKey(data.stripeApiKey);
+    setStripeApiKey("pk_test_51MfhbuSJoOsknp5qV9aQsxT0Ch42ZYzRismvL7m2vtuSTdb8hpXsY9qDMfMD1XR98pChoTJ5NmH0ZcCgVpUKNL9T00uMqfpHvt")
+  
+
   }
 
   React.useEffect(() => {
