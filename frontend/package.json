@@ -17,6 +17,7 @@
     "axios": "^0.26.1",
     "chart.js": "^3.7.1",
     "country-state-city": "^3.0.1",
+    "firebase": "^9.17.1",
     "overlay-navbar": "^1.2.3",
     "react": "^18.0.0",
     "react-alert": "^7.0.3",
@@ -60,5 +61,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://192.168.31.58:4000"
+  "proxy": "https://mern-ecom-production.up.railway.app/"
 }

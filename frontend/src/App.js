@@ -144,6 +144,7 @@ function App() {
         <Route
           path="/admin/products"
           element={
+           // isAuthenticated && user.role === "admin"
             isAuthenticated && user.role === "admin" ? (
               <ProductList />
             ) : (

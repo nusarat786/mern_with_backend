@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import { Button, Typography, Avatar } from "@material-ui/core";
-import ProfileHead from "../../../images/Head.PNG";
+//import ProfileHead from "../../../images/Head.PNG";
 
 const About = () => {
   const visitLinkedin = () => {
@@ -13,7 +13,7 @@ const About = () => {
       <div className="aboutProfile">
         <Avatar
           style={{ width: "15vmax", height: "15vmax" }}
-          src={ProfileHead}
+          //src={ProfileHead}
           alt="Founder"
         />
         <h1>Mohammad Owais</h1>
