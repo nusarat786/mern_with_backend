@@ -9,6 +9,12 @@ import Carousel from "react-material-ui-carousel";
 import ban2 from "../../images/ban2.webp";
 import ban8 from "../../images/ban8.jpg";
 import ban10 from "../../images/ban10.jpg";
+import banner_01 from "../../images/banner_01.jpeg";
+import banner_02 from "../../images/banner_02.jpeg";
+import banner_03 from "../../images/banner_03.jpeg";
+import banner_04 from "../../images/banner_04.jpeg";
+import banner_05 from "../../images/banner_05.jpeg";
+
 import { Link } from "react-router-dom";
 import MoreProductBanner from "../../images/ethnic-mens (1).jpg";
 
@@ -32,9 +38,11 @@ const Home = () => {
         <Fragment>
           <div className="banner">
             <Carousel>
-              <img src={ban10} className="banImg" alt="Carousel" />
-              <img src={ban2} className="banImg" alt="Carousel " />
-              <img src={ban8} className="banImg" alt="Carousel " />
+              <img src={banner_02} className="banImg" alt="Carousel " />
+              <img src={banner_03} className="banImg" alt="Carousel " />
+              <img src={banner_05} className="banImg" alt="Carousel " />
+              <img src={banner_04} className="banImg" alt="Carousel " />
+              <img src={banner_01} className="banImg" alt="Carousel " />
             </Carousel>
             <a href="#container">
               <button>View Collections</button>

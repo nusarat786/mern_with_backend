@@ -1,18 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.a921d3d2.css",
-    "main.js": "/static/js/main.7f0cef37.js",
+    "main.js": "/static/js/main.5da0b03e.js",
+    "static/media/ethnic-mens (1).jpg": "/static/media/ethnic-mens (1).4474bcfad1e6de6263f8.jpg",
     "static/media/ban10.jpg": "/static/media/ban10.da7daf9b21708a5cb63d.jpg",
     "static/media/ban2.webp": "/static/media/ban2.a9b3b36d2aff5c40d102.webp",
     "static/media/ban8.jpg": "/static/media/ban8.1d0f8992abf5e03bd41c.jpg",
-    "static/media/ethnic-mens (1).jpg": "/static/media/ethnic-mens (1).67660f9f04bb0e77aa3b.jpg",
-    "static/media/mew logo2.PNG": "/static/media/mew logo2.a3df5e0bcde4d61fbaba.PNG",
+    "static/media/banner_04.jpeg": "/static/media/banner_04.adb92baa79f6ae94fe5e.jpeg",
+    "static/media/mew logo4.JPEG": "/static/media/mew logo4.544c8489c4b9fb5b1f99.JPEG",
+    "static/media/banner_05.jpeg": "/static/media/banner_05.4da4e4196b125c5195b5.jpeg",
+    "static/media/banner_02.jpeg": "/static/media/banner_02.3d3b4796a24e43f36a57.jpeg",
+    "static/media/banner_03.jpeg": "/static/media/banner_03.271d5b50609ec1c2642b.jpeg",
+    "static/media/banner_01.jpeg": "/static/media/banner_01.a7b8749d869464c64e23.jpeg",
+    "static/media/mew logo3.png": "/static/media/mew logo3.35ecf37d3392d1c5a567.png",
     "index.html": "/index.html",
     "main.a921d3d2.css.map": "/static/css/main.a921d3d2.css.map",
-    "main.7f0cef37.js.map": "/static/js/main.7f0cef37.js.map"
+    "main.5da0b03e.js.map": "/static/js/main.5da0b03e.js.map"
   },
   "entrypoints": [
     "static/css/main.a921d3d2.css",
-    "static/js/main.7f0cef37.js"
+    "static/js/main.5da0b03e.js"
   ]
 }

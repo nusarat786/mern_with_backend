@@ -51,7 +51,7 @@ function App() {
   async function getStripeApiKey() {
     //const { data } = await axios.get("/api/v1/stripeapikey");
     //setStripeApiKey(data.stripeApiKey);
-    setStripeApiKey("pk_test_51MfhbuSJoOsknp5qV9aQsxT0Ch42ZYzRismvL7m2vtuSTdb8hpXsY9qDMfMD1XR98pChoTJ5NmH0ZcCgVpUKNL9T00uMqfpHvt")
+    setStripeApiKey("pk_live_51MfhbuSJoOsknp5qyFj9UpYhRrIfuY985rTKBv0JNcWwCC3gyzrO7llMyDbK6rpvqRRfL7TOTmFrTjKa123fQyoZ00OO2qE5pe")
   
 
   }

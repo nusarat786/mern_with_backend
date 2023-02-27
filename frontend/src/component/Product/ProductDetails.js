@@ -165,16 +165,7 @@ const ProductDetails = () => {
                     <button onClick={increaseQuantity}>+</button>
                   </div>
 
-                  <div className="sizeBlock">
-                    <select required onChange={(e) => setSize(e.target.value)}>
-                      <option disabled="disabled">Size</option>
-                      {sizes?.map((size) => (
-                        <option key={size} value={size}>
-                          {size}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
+                  
                 </div>
 
                 <button

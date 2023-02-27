@@ -21,32 +21,12 @@ const Contact = () => {
         <div className="emailBox">
           <a className="mailBtn" href="mailto:mewHelp@gmail.com">
             <Button>
-              mewHelp@gmail.com <IosShareIcon />
+            selfimobile.help@gmail.com <IosShareIcon />
             </Button>
           </a>
         </div>
       </div>
 
-      <div className="box">
-        <h2 className="boxHeader">
-          <SendIcon />
-          Follow Us
-        </h2>
-        <div className="followBox">
-          <a href="https://www.youtube.com" target="blank">
-            <YouTubeIcon className="youtubeSvgIcon" />
-          </a>
-          <a href="https://instagram.com" target="blank">
-            <InstagramIcon className="instagramSvgIcon" />
-          </a>
-          <a href="https://facebook.com" target="blank">
-            <FacebookIcon className="facebookSvgIcon" />
-          </a>
-          <a href="https://twitter.com" target="blank">
-            <TwitterIcon className="twitterSvgIcon" />
-          </a>
-        </div>
-      </div>
 
       <div className="box">
         <h2 className="boxHeader">
@@ -54,7 +34,8 @@ const Contact = () => {
           Address
         </h2>
         <div className="addressBox">
-          <h3>New Delhi, India</h3>
+        <iframe title='address' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29535.530318864017!2d73.11911321562498!3d22.2802137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc760f902dd5b%3A0xd8ed2ee101aff9dc!2sSELFIE%20MOBILE!5e0!3m2!1sen!2sin!4v1677505370230!5m2!1sen!2sin" width="50%" height="200%"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
         </div>
       </div>
     </div>

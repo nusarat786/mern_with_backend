@@ -16,7 +16,8 @@ import MenuIcon from "@material-ui/icons/Menu";
 import React, { useState, useEffect } from "react";
 import { Link as RouterLink } from "react-router-dom";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
-import mewLogo2 from "../../../images/mew logo2.PNG";
+import mewLogo3 from "../../../images/mew logo3.png";
+import mewLogo4 from "../../../images/mew logo4.JPEG";
 import { useSelector } from "react-redux";
 import HomeIcon from "@mui/icons-material/Home";
 import CategoryIcon from "@mui/icons-material/Category";
@@ -306,7 +307,7 @@ export default function Header() {
             height: 80,
             width: 150,
           }}
-          src={mewLogo2}
+          src={mewLogo4}
           alt="Logo"
         />
       </Typography>
@@ -321,7 +322,7 @@ export default function Header() {
             height: 100,
             width: 200,
           }}
-          src={mewLogo2}
+          src={mewLogo4}
           alt="Logo"
         />
       </Typography>

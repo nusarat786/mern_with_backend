@@ -8,8 +8,8 @@ const sendEmail = async (options) => {
     port: process.env.SMPT_PORT,
     service: process.env.SMPT_SERVICE,
     auth: {
-      user: process.env.SMPT_MAIL,
-      pass: process.env.SMPT_PASSWORD,
+      user: process.env.EMAIL,
+      pass: process.env.PASSWORD_APP,
     },
   });
 
